@@ -10,6 +10,8 @@ public class TestaConexao {
 		
 		Connection  connection = new ConnectionFactory().getConnection();
 		System.out.println("Conectado com sucesso");
+		System.out.println("Conectado com sucesso");
+
 		try {
 			connection.close();
 		} catch (SQLException e) {
